@@ -25,6 +25,7 @@ content:
     type: file
     path: src/pages/about.md
     fields:
+      - { name: cover, label: Cover, type: image, options: { path: src/media/screenshots, extensions: [ jpg, jpeg, png ] }}
       - { 
           name: tags, 
           label: Tags, 
