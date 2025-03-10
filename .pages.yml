@@ -21,7 +21,7 @@ content:
       - { name: description, label: Description, type: string }
       - { name: body, label: Body, type: rich-text }
   - name: about
-    label: About page
+    label: About
     type: file
     path: src/pages/about.md
     fields:
@@ -29,7 +29,7 @@ content:
       - { name: title, label: Title, type: string }
       - { name: body, label: Body, type: rich-text, options: { input: public/assets, output: /assets } }
   - name: home
-    label: Home page
+    label: Home
     type: file
     path: src/pages/home.md
     fields:
